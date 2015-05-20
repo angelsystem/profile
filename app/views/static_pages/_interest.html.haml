@@ -4,7 +4,7 @@
 
     - t('interest.skills_list').each_line do |point|
       - skill = point.split('|')
-      %span= skill[0]
+      %span.name_skill= skill[0]
       .progress-wrap.progress{"data-progress-percent" => "#{skill[1]}"}
         .progress-bar.progress
 

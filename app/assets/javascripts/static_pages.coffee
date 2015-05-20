@@ -17,7 +17,6 @@ ready = ->
     object_each.find('.progress-bar').animate { left: progressTotal }, animationLength
 
   $progress_block.each ->
-    console.log "angelito"
     moveProgressBar $(this)
 
   # timeline

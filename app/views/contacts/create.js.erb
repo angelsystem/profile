@@ -1,1 +1,6 @@
-$("#new_contact").replaceWith("<h2 class='send_message'>Su mensaje fue enviado correctamente</h2>" );
+<% if @contact.errors.any? %>
+  data = "<%= j render 'contacts/form' %>";
+  $('.form_contact').replaceWith(data);
+<% else %>
+  $("#new_contact").replaceWith("<h2 class='send_message'>Su mensaje fue enviado correctamente</h2>" );
+<% end %>
