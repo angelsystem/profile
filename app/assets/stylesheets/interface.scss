@@ -1,0 +1,41 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  /*font-family: "Droid Serif", serif;*/
+  font-family: "Merriweather", serif;
+  color: rgba(58, 65, 69, 0.54);
+}
+
+a {
+  color: #acb7c0;
+  text-decoration: none;
+  font-family: "Merriweather", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2 {
+  font-family: "Merriweather", sans-serif;
+  font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}

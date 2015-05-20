@@ -1,0 +1,32 @@
+%section#top-section
+  .wrapper-header
+    #top
+      - if params[:locale] == 'es'
+        = link_to "English", params.merge(locale: :en)
+      - else
+        = link_to "Español", params.merge(locale: :es)
+    .description
+      %h1.name
+        Angel
+        %span.last_name
+          Rojas
+          %span
+      = image_tag "image_profile.png"
+      %h2.ocupation &lt; Fullstack Developer /&gt;
+      %ul.contact
+        %li
+          %span.icon.phone>
+          987612559
+        %li
+          %span.icon.location>
+          Lima - Perú
+    %ul.social
+      %li
+        %a{:href => "http://twitter.com/angelsystem", :target => "_blank"}
+          %span.icon.twitter
+      %li
+        %a{:href => "http://github.com/angelsystem", :target => "_blank"}
+          %span.icon.github
+      %li
+        %a{:href => "http://pe.linkedin.com/in/angelitorojas", :target => "_blank"}
+          %span.icon.linkedin

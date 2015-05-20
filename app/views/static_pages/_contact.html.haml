@@ -1,0 +1,11 @@
+%section#contact_background
+  #contact.section
+    %h2.subtitle.name-section-contact= t('contact.title')
+    %p= t('contact.message')
+
+    = simple_form_for @contact, remote: true do |f|
+      = f.input :name, placeholder: 'Your name', input_html: { class: 'form-control input-box' }, label: false, wrapper_html: { class: 'contact-form form-inline' }
+      = f.input :email, placeholder: 'Your email address', input_html: { class: 'form-control input-box' }, label: false, wrapper_html: { class: 'contact-form form-inline' }
+      = f.input :message, placeholder: 'Your message', input_html: { class: 'form-control text-area-box' }, label: false, wrapper_html: { class: 'contact-form form-inline' }
+      .contact-form.form-inline
+        = f.button :submit, class: 'standard-button'

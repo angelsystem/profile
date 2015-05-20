@@ -1,0 +1,28 @@
+es:
+  hello: "Hola mundo"
+  about:
+    title: Acerca de mi
+    description: "Hola, Mi nombre es Angel Huaman Rojas tengo 27 años actualmente vivo en Lima - Perú. Soy Desarrollador Web en EterniaSoft. La mayoria de mi tiempo la paso investigando y aprendiendo nuevas formas de mejorar, me gusta hacer interfaces personales de mobiles y web. Y si no estoy haciendo eso, me encuentro con mi novia visitando nuevos lugares donde sorprenderme y poder fotografiar, tambien asisto a meetups del idioma Ingles o Tecnología."
+  interest:
+    image_interest: 'spanish_image_interests.png'
+    skill_title: Conocimiento
+    hobby_title: Pasatiempo
+    skills_list: |
+      Ruby | 70
+      Ruby On rails | 72
+      TDD | 50
+      PostgreSQL | 55
+      Javascript / Jquery | 60
+      Angular | 43
+      HTML / CSS | 82
+      Preprocesadores(sass, stylus, less) | 85
+      UX & UI | 30
+      IOS con Swift | 33
+      Git & Github | 70
+      Scrum | 40
+  experience:
+    title: Experiencia
+  contact:
+    title: Escríbeme
+    message: Deseas conversar o quizas te pueda ayudar en alguna cosa no dudes en escribirme, que gustoso respondere.
+  footer: © 2015 AngelSystem, Todos los Derechos Reservados. Hecho con amor en Lima.

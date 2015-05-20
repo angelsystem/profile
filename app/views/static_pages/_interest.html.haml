@@ -1,0 +1,13 @@
+%section#interests_background.section
+  #skills
+    %h2.subtitle.name-section-interest= t('interest.skill_title')
+
+    - t('interest.skills_list').each_line do |point|
+      - skill = point.split('|')
+      %span= skill[0]
+      .progress-wrap.progress{"data-progress-percent" => "#{skill[1]}"}
+        .progress-bar.progress
+
+  #interests
+    %h2.subtitle.name-section-interest= t('interest.hobby_title')
+    = image_tag t('interest.image_interest'), class: 'text-center'

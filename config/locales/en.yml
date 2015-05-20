@@ -1,0 +1,28 @@
+en:
+  hello: "Hello world"
+  about:
+    title: About me
+    description: "My name is Angel Huaman Rojas I have 27 years currently living in Lima - Peru. I am Web Developer in EterniaSoft. Most of my time is spent researching and learning new ways to improve, I like making personal mobiles and web interfaces. And if I'm not doing that, I meet my girlfriend visiting new places where surprise and to photograph, I also attend English language meetups or Technology."
+  interest:
+    image_interest: 'image_interests.png'
+    skill_title: Skill
+    hobby_title: Hobby
+    skills_list: |
+      Ruby | 70
+      Ruby On rails | 72
+      TDD | 50
+      PostgreSQL | 55
+      Javascript / Jquery | 60
+      Angular | 43
+      HTML / CSS | 82
+      Preprocesadores(sass, stylus, less) | 85
+      UX & UI | 30
+      IOS con Swift | 33
+      Git & Github | 70
+      Scrum | 40
+  experience:
+    title: Experience
+  contact:
+    title: Write me
+    message: You want to talk, or maybe I can help in something do not hesitate to write to me, that gladly will answer.
+  footer: © 2015 AngelSystem, All Rights Reserved. Made with love in Lima.
