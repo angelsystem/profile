@@ -1,5 +1,8 @@
 en:
-  hello: "Hello world"
+  helpers:
+    submit:
+      contact:
+        create: "Send"
   about:
     title: About me
     description: "My name is Angel Huaman Rojas I have 27 years currently living in Lima - Peru. I am Web Developer in EterniaSoft. Most of my time is spent researching and learning new ways to improve, I like making personal mobiles and web interfaces. And if I'm not doing that, I meet my girlfriend visiting new places where surprise and to photograph, I also attend English language meetups or Technology."

@@ -713,14 +713,6 @@ h2.subtitle.name-section-contact {
 }
 
 
-/*spacing*/
-.spacing{
-    height: 60px;
-    border-top: 1px solid rgb(229, 229, 229);
-    width: 80%;
-    margin: 0 auto;
-}
-
 /* footer*/
 
 footer p{
@@ -729,10 +721,14 @@ footer p{
     text-align: center;
 }
 
+footer{
+  padding: 50px 0px;
+}
+
 #top{
-    padding: 20px 100px;
-    text-align: right;
-    padding-bottom: 0px;
+  padding: 20px 100px;
+  text-align: right;
+  padding-bottom: 0px;
 }
 
 .send_message{

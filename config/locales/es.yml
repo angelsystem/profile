@@ -1,5 +1,9 @@
 es:
-  hello: "Hola mundo"
+  helpers:
+    submit:
+      contact:
+        # create: "Add %{model}"
+        create: "Enviar"
   about:
     title: Acerca de mi
     description: "Hola, Mi nombre es Angel Huaman Rojas tengo 27 años actualmente vivo en Lima - Perú. Soy Desarrollador Web en EterniaSoft. La mayoria de mi tiempo la paso investigando y aprendiendo nuevas formas de mejorar, me gusta hacer interfaces personales de mobiles y web. Y si no estoy haciendo eso, me encuentro con mi novia visitando nuevos lugares donde sorprenderme y poder fotografiar, tambien asisto a meetups del idioma Ingles o Tecnología."
