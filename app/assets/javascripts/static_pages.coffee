@@ -2,13 +2,10 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-
-# on browser resize...
-$(window).resize ->
-  moveProgressBar()
-  return
-
-$ ->
+ready = ->
+  # on browser resize...
+  $(window).resize ->
+    moveProgressBar()
   # progress
   $progress_block = $('.progress-wrap')
 
@@ -20,6 +17,7 @@ $ ->
     object_each.find('.progress-bar').animate { left: progressTotal }, animationLength
 
   $progress_block.each ->
+    console.log "angelito"
     moveProgressBar $(this)
 
   # timeline
@@ -29,8 +27,11 @@ $ ->
     if $(this).offset().top > $(window).scrollTop() + $(window).height() * 0.75
       $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden')
 
-  # #on scolling, show/animate timeline blocks when enter the viewport
-  # $(window).on 'scroll', ->
-  #   $timeline_block.each ->
-  #     if $(this).offset().top <= $(window).scrollTop() + $(window).height() * 0.75 and $(this).find('.cd-timeline-img').hasClass('is-hidden')
-  #       $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in')
+  #on scolling, show/animate timeline blocks when enter the viewport
+  $(window).on 'scroll', ->
+    $timeline_block.each ->
+      if $(this).offset().top <= $(window).scrollTop() + $(window).height() * 0.75 and $(this).find('.cd-timeline-img').hasClass('is-hidden')
+        $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in')
+
+$(document).ready(ready)
+$(document).on('page:load', ready)
