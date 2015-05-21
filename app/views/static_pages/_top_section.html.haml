@@ -1,7 +1,7 @@
 %section#top-section
   .wrapper-header
     #top
-      - if params[:locale] == 'es'
+      - if I18n.locale == :es
         = link_to "English", params.merge(locale: :en)
       - else
         = link_to "Español", params.merge(locale: :es)
