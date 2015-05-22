@@ -30,7 +30,7 @@ Main components
 /*header*/
 
 #top-section{
-    background-image: url(header.png);
+    background-image: image-url(header.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 790px;
@@ -90,11 +90,11 @@ ul.contact{
 }
 
 .contact .phone:before{
-    content: url('phone.png');
+    content: image-url('phone.png');
 }
 
 .contact .location:before{
-    content: url('location.png');
+    content: image-url('location.png');
 }
 
 .description{
@@ -133,15 +133,15 @@ ul.contact{
 }
 
 .social .twitter:before{
-    content: url('twitter.png');
+    content: image-url('twitter.png');
 }
 
 .social .github:before{
-    content: url('github.png');
+    content: image-url('github.png');
 }
 
 .social .linkedin:before{
-    content: url('linkedin.png');
+    content: image-url('linkedin.png');
 }
 
 
@@ -186,7 +186,7 @@ h2.subtitle.name-section-contact {
 /*interests*/
 #interests_background{
     /*background-color: #FAFAFA;
-    background: url(yo.png) #f5f2ed top center no-repeat fixed;
+    background: image-url(yo.png) #f5f2ed top center no-repeat fixed;
     background-size: cover;*/
     width: 80%;
     font-size: 20px;
@@ -700,7 +700,7 @@ h2.subtitle.name-section-contact {
 
 #contact_background{
     background-color: #FAFAFA;
-    background: url(interest.png) #f5f2ed top center no-repeat fixed;
+    background: image-url(interest.png) #f5f2ed top center no-repeat fixed;
     background-size: cover;
     width: 100%;
     font-size: 20px;
