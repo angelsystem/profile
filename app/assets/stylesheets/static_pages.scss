@@ -30,7 +30,7 @@ Main components
 /*header*/
 
 #top-section{
-    background-image: asset-url('header.png');
+    background-image: asset-url('bg_header.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 790px;
@@ -700,7 +700,7 @@ h2.subtitle.name-section-contact {
 
 #contact_background{
   background-color: #FAFAFA;
-  background: asset-url('interest.png') #f5f2ed top center no-repeat fixed;
+  background: asset-url('bg_contact.png') #f5f2ed top center no-repeat fixed;
   background-size: cover;
   width: 100%;
   font-size: 20px;
