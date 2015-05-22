@@ -30,7 +30,7 @@ Main components
 /*header*/
 
 #top-section{
-    background-image: image-url(header.png);
+    background-image: asset-url('header.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 790px;
@@ -90,11 +90,11 @@ ul.contact{
 }
 
 .contact .phone:before{
-    content: image-url('phone.png');
+    content: asset-url('phone.png');
 }
 
 .contact .location:before{
-    content: image-url('location.png');
+    content: asset-url('location.png');
 }
 
 .description{
@@ -133,15 +133,15 @@ ul.contact{
 }
 
 .social .twitter:before{
-    content: image-url('twitter.png');
+    content: asset-url('twitter.png');
 }
 
 .social .github:before{
-    content: image-url('github.png');
+    content: asset-url('github.png');
 }
 
 .social .linkedin:before{
-    content: image-url('linkedin.png');
+    content: asset-url('linkedin.png');
 }
 
 
@@ -700,7 +700,7 @@ h2.subtitle.name-section-contact {
 
 #contact_background{
     background-color: #FAFAFA;
-    background: image-url(interest.png) #f5f2ed top center no-repeat fixed;
+    background: asset-url(interest.png) #f5f2ed top center no-repeat fixed;
     background-size: cover;
     width: 100%;
     font-size: 20px;
