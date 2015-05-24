@@ -306,15 +306,31 @@ h2.subtitle.name-section-contact {
   margin-left: -12px;
   margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
-  background: #75ce66;
+
+.cd-timeline-img.cd-current {
+  background: rgb(249, 232, 62);
 }
-.cd-timeline-img.cd-movie {
-  background: #c03b44;
+
+.cd-timeline-img.cd-sperant {
+  background: #00BBB9;
 }
-.cd-timeline-img.cd-location {
-  background: #f0ca45;
+
+.cd-timeline-img.cd-senddinero {
+  background: rgb(224, 98, 45);
 }
+
+.cd-timeline-img.cd-creatiwebs {
+  background: rgb(61, 153, 47);
+}
+
+.cd-timeline-img.cd-2csgroup {
+  background: #3481AA;
+}
+
+.cd-timeline-img.cd-graduate {
+  background: rgb(15, 103, 196);
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
@@ -400,15 +416,38 @@ h2.subtitle.name-section-contact {
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
+  p a{
+    color: #158FF4;
+    &:hover{
+      color: #3099F0;
+    }
+  }
+  &:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2 {
+    .title-ocupation {
+      display: block;
+      color: #303e49;
+    }
+    a.company-name{
+      color: grey;
+      font-size: 0.84em;
+      &:visited{
+        color: grey;
+      }
+      &:hover{
+        color: rgb(87, 84, 84);
+        border-bottom: 3px solid #F16539;
+        font-size: 0.84m;
+      }
+    }
+  }
 }
-.cd-timeline-content:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.cd-timeline-content h2 {
-  color: #303e49;
-}
+
+
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
   font-size: 0.8125rem;
