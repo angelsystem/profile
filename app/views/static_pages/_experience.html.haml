@@ -1,6 +1,6 @@
 %section#experience.section
   %h2.subtitle.name-section-about-me= t('experience.title')
-  %section#cd-timeline.cd-container
+  %section#cd-experience.timeline.cd-container
 
     .cd-timeline-block
       .cd-timeline-img.cd-current
@@ -8,8 +8,8 @@
 
       .cd-timeline-content
         %h2 Ruby Developer Semi Senior
-        %p Actualmente sigo como uno de los responsables del CRM Sperant, sin embargo sigo en busca de nuevos retos y propuestas donde mejorar mis Skills.
-        %span.cd-date Actualidad
+        %p= t('experience.timeline.currenty_description')
+        %span.cd-date= t('experience.timeline.currenty-date')
 
     .cd-timeline-block
       .cd-timeline-img.cd-sperant
@@ -18,9 +18,8 @@
         %h2
           %span.title-ocupation Ruby Developer Semi Senior
           %a{href: 'https://www.sperant.com', class: 'company-name'} Sperant
-        %p= "Fui parte del team desde el inicio del proyecto, donde realizamos el CRM para las empresas Inmobilirias Peruanas, el proyecto esta basado en Ruby on Rails y Multitenancy con Postgres para brindar un SAAS."
-        %span.cd-date Agosto 2012
-
+        %p= t('experience.timeline.sperant_description')
+        %span.cd-date= t('experience.timeline.sperant_date')
 
     .cd-timeline-block
       .cd-timeline-img.cd-senddinero
@@ -29,9 +28,8 @@
         %h2
           %span.title-ocupation Ruby Developer Junior
           %a{href: 'https://www.facebook.com/SendDinero', class: 'company-name'} Senddinero
-        %p
-          Participación en el proyecto basado en Dinero Electrónico y Remesas online desarrollado en Ruby on Rails, donde aprendí temas como seguridad, finanzas, usabilidad y escalabilidad.
-        %span.cd-date Febrero 2012
+        %p= t('experience.timeline.senddinero_description')
+        %span.cd-date= t('experience.timeline.senddinero_date')
 
     .cd-timeline-block
       .cd-timeline-img.cd-creatiwebs
@@ -41,10 +39,9 @@
           %span.title-ocupation PHP Developer
           %a{href: 'https://www.facebook.com/creatiwebs', class: 'company-name'} Creatiwebs
         %p
-          Empresa que se dedicaba al Marketing y al Desarrollo web, donde participé en proyectos usando Facebook, PHP, Joomla e hicimos una app mobile usando
-          el Framework.
+          = t('experience.timeline.creatiwebs_description')
           %a{href: 'http://rhomobile.com/'} rhomobile
-        %span.cd-date Junio 2011
+        %span.cd-date= t('experience.timeline.creatiwebs_date')
 
 
     .cd-timeline-block
@@ -54,14 +51,13 @@
         %h2
           %span.title-ocupation PHP Developer
           %a{href: 'http://www.2csgroup.com/', class: 'company-name'} 2CsGroup
-        %p= "Implementamos pequeñas applicaciones con php puro y algunos usando Frameworks como <a href='http://www.kumbiaphp.com/blog/'>KumbiaPhp</a>, <a href='http://framework.zend.com/'>ZendFramework</a>, también se realizó algunas paginas web usando el CMS Joomla.".html_safe
-
-        %span.cd-date Enero 2011
+        %p= t('experience.timeline.2csgroup_description')
+        %span.cd-date= t('experience.timeline.2csgroup_date')
 
     .cd-timeline-block
       .cd-timeline-img.cd-graduate
         = image_tag "cd-icon-location.svg", alt: "Movie"
       .cd-timeline-content
         %h2 Graduado
-        %p Bachiler En Ingenieria de Sistemas de la Universidad Nacional Daniel Alcides Carrión - Perú
-        %span.cd-date Diciembre 2010
+        %p= t('timeline.timeline.graduate_description')
+        %span.cd-date= t('timeline.timeline.graduate_date')
