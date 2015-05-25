@@ -34,9 +34,9 @@ es:
       sperant_date: Agosto 2012
       senddinero_description: Participación en el proyecto basado en Dinero Electrónico y Remesas online desarrollado en Ruby on Rails, donde aprendí temas como seguridad, finanzas, usabilidad y escalabilidad.
       senddinero_date: Febrero 2012
-      creatiwebs_description: Empresa que se dedicaba al Marketing y al Desarrollo web, donde participé en proyectos usando Facebook, PHP, Joomla e hicimos una app mobile usando el Framework
+      creatiwebs_description_html: Empresa que se dedicaba al Marketing y al Desarrollo web, donde participé en proyectos usando Facebook, PHP, Joomla e hicimos una app mobile usando el Framework <a href='http://rhomobile.com/'>rhomobile</a>.
       creatiwebs_date: Junio 2011
-      2csgroup_description: Implementamos pequeñas applicaciones con php puro y algunos usando Frameworks como <a href="http://www.kumbiaphp.com/blog/">KumbiaPhp</a>, <a href="http://framework.zend.com/">ZendFramework</a>, también se realizó algunas paginas web usando el CMS Joomla.
+      2csgroup_description_html:  <span>Implementamos pequeñas applicaciones con php puro y algunos usando Frameworks como <a href="http://www.kumbiaphp.com/blog/">KumbiaPhp</a>, <a href="http://framework.zend.com/">ZendFramework</a>, también se realizó algunas paginas web usando el CMS Joomla.</span>
       2csgroup_date: Enero 2011
       graduate_description: Bachiler En Ingenieria de Sistemas de la Universidad Nacional Daniel Alcides Carrión - Perú
       graduate_date: Diciembre 2010
