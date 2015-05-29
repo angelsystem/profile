@@ -49,6 +49,7 @@ group :development, :test do
 end
 
 gem 'rails_12factor', group: :production
+gem 'puma'
 
 # gem 'capistrano', '~> 3.1.0'
 # gem 'capistrano-rails', '~> 1.1.1'
