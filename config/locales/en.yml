@@ -5,7 +5,7 @@ en:
         create: "Send"
   about:
     title: About me
-    description: "My name is Angel Huaman Rojas, currently living in Lima - Peru. I am Web Developer in EterniaSoft. Most of my time is spent researching and learning new ways to improve, I like making personal mobiles and web interfaces. And if I'm not doing that, I meet my girlfriend visiting new places where surprise and to photograph, I also attend English language meetups or Technology."
+    description: "Hello, I'm Angel Rojas Huaman, I'm Web Developer self-taught, currently living in Lima - Peru and EterniaSoft work. Most of my time is spent researching and learning new ways to improve, I like making personal mobiles and web interfaces. And if I'm not doing that, I meet my girlfriend visiting new places where surprise and to photograph, I also attend meetups about technology, entrepreneurship and English."
   interest:
     image_interest: 'image_interests.png'
     skill_title: Skill
@@ -33,9 +33,9 @@ en:
       sperant_date: August 2012
       senddinero_description: Participation based on electronic money and online Remittances developed in Ruby on Rails, where I learned subjects such as security, finance, usability and scalability project.
       senddinero_date: February 2012
-      creatiwebs_description: Company devoted to marketing and Web development, where I participated in projects using Facebook, PHP, Joomla and made a mobile app using Framework
+      creatiwebs_description_html: Company devoted to marketing and Web development, where I participated in projects using Facebook, PHP, Joomla and made a mobile app using Framework <a href='http://rhomobile.com/'>rhomobile</a>.
       creatiwebs_date: June 2011
-      2csgroup_description: "Applications implemented in pure small php and some using Frameworks like <a href='http://www.kumbiaphp.com/blog/'>KumbiaPhp</a>, <a href='http://framework.zend.com/'>ZendFramework</a>, some websites using Joomla CMS was also performed."
+      2csgroup_description_html: <span>Applications implemented in pure small php and some using Frameworks like <a href="http://www.kumbiaphp.com/blog/">KumbiaPhp</a>, <a href="http://framework.zend.com/">ZendFramework</a>, some websites using Joomla CMS was also performed.</span>
       2csgroup_date: January 2011
       graduate_description: Bachiler in systems engineering from the National University Daniel Alcides Carrión - Peru
       graduate_date: December 2010

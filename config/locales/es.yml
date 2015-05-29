@@ -6,7 +6,7 @@ es:
         create: "Enviar"
   about:
     title: Acerca de mi
-    description: "Hola, Mi nombre es Angel Huaman Rojas, actualmente vivo en Lima - Perú. Soy Desarrollador Web en EterniaSoft. La mayoria de mi tiempo la paso investigando y aprendiendo nuevas formas de mejorar, me gusta hacer interfaces personales de mobiles y web. Y si no estoy haciendo eso, me encuentro con mi novia visitando nuevos lugares donde sorprenderme y poder fotografiar, tambien asisto a meetups del idioma Ingles o Tecnología."
+    description: "Hola, mi nombre es Angel Huaman Rojas, soy Desarrollador Web autotidacta, actualmente vivo en Lima - Perú y trabajo en EterniaSoft. La mayoria de mi tiempo la paso investigando y aprendiendo nuevas formas de mejorar, me gusta hacer interfaces personales de mobiles y web. Y si no estoy haciendo eso, me encuentro con mi novia visitando nuevos lugares donde sorprenderme y poder fotografiar, tambien asisto a meetups sobre tecnología, emprendimiento e ingles."
   interest:
     image_interest: 'spanish_image_interests.png'
     skill_title: Conocimiento
@@ -34,9 +34,9 @@ es:
       sperant_date: Agosto 2012
       senddinero_description: Participación en el proyecto basado en Dinero Electrónico y Remesas online desarrollado en Ruby on Rails, donde aprendí temas como seguridad, finanzas, usabilidad y escalabilidad.
       senddinero_date: Febrero 2012
-      creatiwebs_description: Empresa que se dedicaba al Marketing y al Desarrollo web, donde participé en proyectos usando Facebook, PHP, Joomla e hicimos una app mobile usando el Framework
+      creatiwebs_description_html: Empresa que se dedicaba al Marketing y al Desarrollo web, donde participé en proyectos usando Facebook, PHP, Joomla e hicimos una app mobile usando el Framework <a href='http://rhomobile.com/'>rhomobile</a>.
       creatiwebs_date: Junio 2011
-      2csgroup_description: "Implementamos pequeñas applicaciones con php puro y algunos usando Frameworks como <a href='http://www.kumbiaphp.com/blog/'>KumbiaPhp</a>, <a href='http://framework.zend.com/'>ZendFramework</a>, también se realizó algunas paginas web usando el CMS Joomla."
+      2csgroup_description_html:  <span>Implementamos pequeñas applicaciones con php puro y algunos usando Frameworks como <a href="http://www.kumbiaphp.com/blog/">KumbiaPhp</a>, <a href="http://framework.zend.com/">ZendFramework</a>, también se realizó algunas paginas web usando el CMS Joomla.</span>
       2csgroup_date: Enero 2011
       graduate_description: Bachiler En Ingenieria de Sistemas de la Universidad Nacional Daniel Alcides Carrión - Perú
       graduate_date: Diciembre 2010
