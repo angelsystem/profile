@@ -5,7 +5,7 @@ en:
         create: "Send"
   about:
     title: About me
-    description: "Hello, I'm Angel Rojas Huaman, I'm Web Developer self-taught, currently living in Lima - Peru and EterniaSoft work. Most of my time is spent researching and learning new ways to improve, I like making personal mobiles and web interfaces. And if I'm not doing that, I meet my girlfriend visiting new places where surprise and to photograph, I also attend meetups about technology, entrepreneurship and English."
+    description: "Hello, my name is Angel Huaman Rojas, I´m self-taught web developer. Actually, I live in Lima - Perú and I work in EterniaSoft. Most of my time was occupied in research and learn new ways to improve my abilities. In my free time I like to do mobile and web interfaces, if I´m not doing that, I go with my girlfriend to visit and explore new places, finding unique unforgettable experiences and take pictures. Also I go to meetups of technology, entrepreneurship and English."
   interest:
     image_interest: 'image_interests.png'
     skill_title: Skill
@@ -27,19 +27,19 @@ en:
   experience:
     title: Experience
     timeline:
-      currently_description: Currently I'm like one of those responsible for the CRM Sperant without'm available for new proposals and challenges which improve my Skills.
+      currently_description: Currently I work as manager of CRM Sperant, however I´m available to new proposals and challenges which improve my skills.
       currently_date: Currently
-      sperant_description: I was part of the team since the start of the project, where we made the CRM Inmobilirias Peruvian companies, the project is based on Ruby on Rails and Multitenancy with Postgres to provide SAAS.
+      sperant_description: I was part of the team since the start of the project, in this project we developed the CRM for Peruvian real estate companies, this project was build on Ruby on Rails and Multitenancy with Postgres to provide a SAAS.
       sperant_date: August 2012
-      senddinero_description: Participation based on electronic money and online Remittances developed in Ruby on Rails, where I learned subjects such as security, finance, usability and scalability project.
+      senddinero_description: I participated in a Project that involved sending electronic money developed in Ruby on Rails, I learned there was security issues, finance, usability and scalability.
       senddinero_date: February 2012
-      creatiwebs_description_html: Company devoted to marketing and Web development, where I participated in projects using Facebook, PHP, Joomla and made a mobile app using Framework <a href='http://rhomobile.com/'>rhomobile</a>.
+      creatiwebs_description_html: "It is a Company dedicated to marketing and web development. I participated in projects using Facebook, PHP, Joomla and made a mobile app with the Framework <a href='http://rhomobile.com/'>rhomobile</a>."
       creatiwebs_date: June 2011
-      2csgroup_description_html: <span>Applications implemented in pure small php and some using Frameworks like <a href="http://www.kumbiaphp.com/blog/">KumbiaPhp</a>, <a href="http://framework.zend.com/">ZendFramework</a>, some websites using Joomla CMS was also performed.</span>
+      2csgroup_description_html: <span>implemented a little apps with PHP and use Frameworks like <a href="http://www.kumbiaphp.com/blog/">KumbiaPhp</a>, <a href="http://framework.zend.com/">ZendFramework</a>, also we developed some websites using CMS Joomla.</span>
       2csgroup_date: January 2011
-      graduate_description: Bachiler in systems engineering from the National University Daniel Alcides Carrión - Peru
+      graduate_description: Degree in systems engineering from the National University Daniel Alcides Carrión - Peru
       graduate_date: December 2010
   contact:
     title: Write me
-    message: You want to talk, or maybe I can help in something do not hesitate to write to me, that gladly will answer.
+    message: If you want to talk to me or maybe I can help in something, please write me and I will answer with pleasure.
   footer: © 2015 AngelSystem, All Rights Reserved. Made with love in Lima.
