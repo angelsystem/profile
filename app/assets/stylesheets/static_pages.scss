@@ -90,12 +90,16 @@ ul.contact{
     vertical-align: middle;
 }
 
+.contact .skype:before{
+  content: asset-url('skype.png');
+}
+
 .contact .phone:before{
-    content: asset-url('phone.png');
+  content: asset-url('phone.png');
 }
 
 .contact .location:before{
-    content: asset-url('location.png');
+  content: asset-url('location.png');
 }
 
 .description{

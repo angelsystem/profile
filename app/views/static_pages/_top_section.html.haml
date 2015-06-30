@@ -1,7 +1,6 @@
 %section#top-section
   .wrapper-header
     #top
-      / - if I18n.locale == :es
       - if params[:locale] == 'es'
         = link_to "English", params.merge(locale: :en)
       - else
@@ -16,10 +15,13 @@
       %h2.ocupation &lt; Fullstack Developer /&gt;
       %ul.contact
         %li
-          %span.icon.phone>
-          987612559
+          %span.icon.skype
+          angelsystem
         %li
-          %span.icon.location>
+          %span.icon.phone
+          +51-987612559
+        %li
+          %span.icon.location
           Lima - Perú
     %ul.social
       %li
